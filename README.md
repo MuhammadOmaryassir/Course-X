@@ -9,17 +9,17 @@
 - Independent of UI. The UI can change easily, without changing the rest of the system.
 - Independent of Database. You can swap out Oracle or SQL Server, for Mongo, BigTable, CouchDB, or something else. 
 
-## Install Dependencies
+### Install Dependencies
 ```bash
 go install
 ```
 
-## Build
+### Build
 ```bash
 go build
 ```
 
-## Run
+### Run
 ```bash
 go run .
 ```
@@ -27,13 +27,18 @@ go run .
 go run *.go
 ```
 
-## Run Docker container from the app
+### Using Docker
+
+# Build The Image
 ```bash
-# To build the image
-    * docker image build -t yourname/gocleanarch .
-# To run the container
-    * docker run -p 8000:8000 -d yourname/gocleanarch
-
-    * Open the browser and type localhost:8000
-
+docker image build -t yourname/gocleanarch .
 ```
+
+# Run the container
+```bash
+docker run -p 8000:8000 -d yourname/gocleanarch
+```
+
+### Useage
+* Open the browser and type localhost:8000
+
