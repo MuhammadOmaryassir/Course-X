@@ -23,6 +23,9 @@ go build
 ```bash
 go run .
 ```
+```bash
+go run *.go
+```
 
 ## Run Docker container from the app
 ```bash
@@ -33,8 +36,4 @@ go run .
 
     * Open the browser and type localhost:8000
 
-```
-
-```bash
-go run *.go
 ```
