@@ -40,5 +40,5 @@ docker run -p 8000:8000 -d yourname/gocleanarch
 ```
 
 ### Useage
-* Open the browser and type localhost:8000
-
+http://github.com - automatic!
+[Localhost](http://localhost:8000)
