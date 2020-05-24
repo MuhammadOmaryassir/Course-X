@@ -14,12 +14,12 @@
 go install
 ```
 
-### Build
+## Build
 ```bash
 go build
 ```
 
-### Run
+## Run
 ```bash
 go run .
 ```
@@ -27,14 +27,14 @@ go run .
 go run *.go
 ```
 
-### Using Docker
+## Using Docker
 
-# Build The Image
+### Build The Image
 ```bash
 docker image build -t yourname/gocleanarch .
 ```
 
-# Run the container
+### Run the container
 ```bash
 docker run -p 8000:8000 -d yourname/gocleanarch
 ```
