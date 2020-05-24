@@ -24,6 +24,17 @@ go build
 go run .
 ```
 
+## Run Docker container from the app
+```bash
+# To build the image
+    * docker image build -t yourname/gocleanarch .
+# To run the container
+    * docker run -p 8000:8000 -d yourname/gocleanarch
+
+    * Open the browser and type localhost:8000
+
+```
+
 ```bash
 go run *.go
 ```
