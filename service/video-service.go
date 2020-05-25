@@ -3,6 +3,7 @@ package service
 import (
 	"errors"
 	"math/rand"
+	"strconv"
 
 	"../entity"
 	"../repository"
@@ -42,4 +43,12 @@ func (*service) Create(video *entity.Video) (*entity.Video, error) {
 
 func (*service) FindAll() ([]entity.Video, error) {
 	return repo.FindAll()
+}
+
+func (*service) FindByID(id string) (*entity.Video, error) {
+	_, err := strconv.ParseInt(id, 10, 64)
+	if err != nil {
+		return nil, err
+	}
+	return repo.FindByID(id)
 }
