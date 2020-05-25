@@ -1,8 +1,8 @@
 package main
 
 import (
-	"cloudX/repository"
-	"cloudX/service"
+	"CourseX/repository"
+	"CourseX/service"
 
 	"./controller"
 	router "./http"

@@ -1,6 +1,6 @@
 package repository
 
-import "cloudX/entity"
+import "CourseX/entity"
 
 type VideoRepository interface {
 	Save(video *entity.Video) (*entity.Video, error)

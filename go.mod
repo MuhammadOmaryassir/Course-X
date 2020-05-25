@@ -1,4 +1,4 @@
-module cloudX
+module CourseX
 
 go 1.14
 

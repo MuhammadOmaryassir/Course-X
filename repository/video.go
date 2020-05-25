@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"cloudX/entity"
+	"CourseX/entity"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
